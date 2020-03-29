@@ -2,6 +2,7 @@ package com.agisoft.cucumber;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.agisoft.cucumber.controllers.MainController;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.agisoft.cucumber;
+package com.agisoft.cucumber.model;
 
 public class Greeting {
 

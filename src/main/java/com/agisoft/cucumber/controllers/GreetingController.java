@@ -1,5 +1,6 @@
-package com.agisoft.cucumber;
+package com.agisoft.cucumber.controllers;
 
+import com.agisoft.cucumber.model.Greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

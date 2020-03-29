@@ -1,4 +1,4 @@
-package com.agisoft.cucumber;
+package com.agisoft.cucumber.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

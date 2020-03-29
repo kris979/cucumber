@@ -1,6 +1,6 @@
 package com.agisoft.cucumber.restassured;
 
-import com.agisoft.cucumber.GreetingController;
+import com.agisoft.cucumber.controllers.GreetingController;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -8,8 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static io.restassured.module.mockmvc.RestAssuredMockMvc.*;
-import static io.restassured.module.mockmvc.matcher.RestAssuredMockMvcMatchers.*;
 
 @SpringBootTest
 @AutoConfigureMockMvc
