@@ -23,5 +23,4 @@ public class MyStepdefs {
     public void iShouldBeTold(String expectedAnswer) {
         assertEquals(expectedAnswer, actualAnswer);
     }
-
 }
